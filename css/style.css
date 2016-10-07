@@ -32,6 +32,14 @@ h3 {
     background-size: cover;
 }
 
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
 .menu a,
 .menu img {
     float: left;
@@ -71,14 +79,9 @@ h3 {
 #header-footer {
     background: #ffffff;
     min-height: 300px;
+    width: 1900px;
     text-align: center;
-}
-
-.punkt-bg {
-    position: absolute;
-    background: url("../img/Punkt.png") no-repeat;
-    width: 100%;
-    height: 219px;
+    background: url("../img/Punkt.png") no-repeat center;
 }
 
 .text{
@@ -96,4 +99,121 @@ h3 {
 
 .header-footer-wrap {
     padding-top: 100px;
+}
+
+#picture {
+    background: #1d1a1a;
+    width: 1900px;
+    padding-top:  70px;
+}
+
+h2.title {
+    color: #dfdfdf;
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    font-size: 85px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.pic-wrap {
+    margin-bottom: 100px;
+}
+
+.btn-links a {
+    color: #666565;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    padding-left: 21px;
+}
+
+.btn-links a:first-child {
+    padding-left: 0;
+    text-decoration: underline;
+}
+
+.btn-links a:hover {
+    text-decoration: underline;
+}
+
+.pic-img {
+    overflow: hidden;
+}
+
+.pic-img-1 {
+    width: 280px;
+    height: 250px;
+    margin: 0 20px 15px 0;
+}
+
+.pic-img-2 {
+    width: 475px;
+    height: 400px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.pic-img-3 {
+    width: 372px;
+    height: 336px;
+    margin-bottom: 15px;
+}
+
+.pic-img-4 {
+    width: 375px;
+    height: 91px;
+    background: #2c2c2c;
+    color: #fff;
+    font: 300 35px/35px Lato, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 20px;
+    margin-top: -65px;
+}
+
+.pic-img-5 {
+    width: 475px;
+    height: 250px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.pic-img-6 {
+    width: 280px;
+    height: 400px;
+    margin-top: -150px;
+}
+
+.pic-img-7 {
+    width: 775px;
+    height: 270px;
+    margin-right: 20px;
+
+}
+
+.pic-img-8 {
+    width: 375px;
+    height: 440px;
+    margin-top: -171px;
+    margin-bottom: 20px;
+}
+
+.pic-btn {
+    text-align: center;
+    display: block;
+    background: #2b2d2c;
+    width: 100%;
+    padding: 32px 0 32px 0;
+    margin-bottom: 100px;
+    font: 300 35px/35px Lato, sans-serif;
+    color: #666565;
+    text-transform: uppercase;
+}
+
+.pic-btn a {
+    text-decoration: none;
 }
