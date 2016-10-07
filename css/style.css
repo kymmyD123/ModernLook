@@ -4,9 +4,15 @@ body {
     padding: 0;
 }
 
+body {
+
+}
+
 h1,
 h2,
-h3 {
+h3,
+h5,
+p {
     margin:  0;
 }
 
@@ -26,7 +32,7 @@ h3 {
 }
 
 #header {
-    width: 1900px;
+
     height: 100vh;
     background: #3f5b58 url("../img/header-bg.jpg") no-repeat;
     background-size: cover;
@@ -79,7 +85,6 @@ h3 {
 #header-footer {
     background: #ffffff;
     min-height: 300px;
-    width: 1900px;
     text-align: center;
     background: url("../img/Punkt.png") no-repeat center;
 }
@@ -90,7 +95,7 @@ h3 {
 
 .text h3 {
     text-transform: uppercase;
-    padding-top: 35px;
+
 }
 
 .text h3 span {
@@ -103,7 +108,6 @@ h3 {
 
 #picture {
     background: #1d1a1a;
-    width: 1900px;
     padding-top:  70px;
 }
 
@@ -127,16 +131,17 @@ h2.title {
     text-decoration: none;
     font-family: Lato, sans-serif;
     font-weight: 300;
-    padding-left: 21px;
+    margin-left: 21px;
 }
 
 .btn-links a:first-child {
-    padding-left: 0;
-    text-decoration: underline;
+    margin-left: 0;
+    padding: 0 0 4px 0;
+    border-bottom: 1px solid transparent;
 }
 
-.btn-links a:hover {
-    text-decoration: underline;
+.btn-links a.active {
+    border-bottom: 1px solid #666565;
 }
 
 .pic-img {
@@ -216,4 +221,190 @@ h2.title {
 
 .pic-btn a {
     text-decoration: none;
+}
+
+#background {
+    background: #3d4f8b url("../img/background-about.jpg") no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+#about {
+    background: #666565;
+}
+
+#about h2.title {
+    font: 300 85px/85px Lato, sans-serif;
+    text-align: center;
+    color: #ffffff;
+    padding: 100px 0 100px 0;
+    margin-bottom: 0;
+}
+
+.about-wrap {
+    overflow: hidden;
+    width: 100%;
+}
+
+.about {
+    width: 50%;
+    padding-bottom: 100px;
+}
+
+.about .about-content {
+
+}
+
+.about.about-column-1 .about-content {
+    padding-right: 10px;
+}
+
+.about.about-column-2 .about-content {
+    padding-left: 10px;
+}
+
+.content-column-1,
+.content-column-2 {
+    background: #111;
+}
+
+.content-column-1 {
+    width: 279px;
+    height: 430px;
+    float: left;
+}
+
+.content-column-2 {
+    margin-left: 279px;
+    padding: 45px 20px 80px 20px;
+    height: 307px;
+}
+
+.content-column-2 h2 {
+    color: #fff;
+    font: 300 37px/37px Lato, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+
+.content-column-2 p {
+    color: #fff;
+    font: 300 16px/19px Lato, sans-serif;
+}
+
+.about-footer {
+    background: #ffffff;
+    min-height: 300px;
+    text-align: center;
+    padding: 0 0 100px 0;
+}
+
+#blog {
+    background: #3a3246 url("../img/blog-background.jpg") no-repeat center;
+}
+
+.title-blog .title-blog-2 {
+    text-transform: uppercase;
+    font: 300 85px/85px Lato, sans-serif ;
+    color: #fff;
+    text-align: center;
+}
+
+.column {
+    margin-right: 17px;
+    width: 378px;
+    height: 672px;
+}
+
+.column:last-child {
+    margin-right: 0;
+}
+
+.blog-text a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 300 14px/14px Lato, sans-serif;
+}
+
+.blog-text span {
+    color: #8b8194;
+    font: 300 14px/14px Lato, sans-serif;
+}
+
+.blog-text h5 {
+    font: 700 25px/25px Lato, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.blog-text p {
+    font: 400 16px/16px Lato, sans-serif;
+    color: #fff;
+}
+
+.blog-text p.descr {
+    margin-bottom: 35px;
+}
+
+.descr-2 {
+    margin-bottom: 67px;
+}
+
+.descr-3 {
+    margin-bottom: 82px;
+}
+
+h2.title-blog-2 {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.blog-footer {
+    font: 300 25px/25px Lato, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 100px 0 100px 0;
+}
+
+#lighthouse {
+    background: #3f5b58 url("../img/lighthouse.jpg") no-repeat center;
+    width: 100%;
+    height: 100vh;
+}
+
+#contact {
+    background: #0f0f0f;
+    height: 960px;
+}
+
+.contact-column-1 h5 {
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 50px 0;
+    font: 300 25px/25px Lato, sans-serif;
+}
+
+.contact-column-1 p {
+    color: #8b8194;
+}
+
+.social {
+    margin-top: 60px;
+    outline: 1px solid red;
+    width: 574px;
+    height: 176px;
+}
+
+.contact-column-2 {
+    width: 378px;
+    height: 383px;
+    outline: 1px solid red;
+}
+
+footer {
+    background: #000 url("../img/footer-bg.jpg") no-repeat center;
+    width: 100%;
+    height: 519px;
 }
