@@ -382,7 +382,7 @@ h2.title-blog-2 {
 .contact-column-1 h5 {
     text-transform: uppercase;
     color: #fff;
-    margin: 0 0 50px 0;
+    margin: 0 0 80px 0;
     font: 300 25px/25px Lato, sans-serif;
 }
 
@@ -390,11 +390,166 @@ h2.title-blog-2 {
     color: #8b8194;
 }
 
+.contact-descr {
+    margin-bottom: 35px;
+}
+
 .social {
-    margin-top: 60px;
-    outline: 1px solid red;
-    width: 574px;
+    margin-top: 85px;
+    width: 483px;
     height: 176px;
+}
+
+.social ul {
+    padding-left: 0;
+}
+
+.social li {
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+}
+
+.social li.s-fb {
+    background: url("../img/social.png") no-repeat;
+    background-position: 1px -15px;
+}
+
+.social li.s-tw {
+     background: url("../img/social.png") no-repeat;
+     background-position: -80px -15px;
+ }
+
+.social li.s-li {
+    background: url("../img/social.png") no-repeat;
+    background-position: -161px -15px;
+}
+
+.social li.s-g {
+    background: url("../img/social.png") no-repeat;
+    background-position: -242px -15px;
+}
+
+.social li.s-be {
+    background: url("../img/social.png") no-repeat;
+    background-position: -322px -15px;
+}
+
+.social li.s-rs {
+    background: url("../img/social.png") no-repeat;
+    background-position: -403px -15px;
+}
+
+.social li.s-pica {
+    background: url("../img/social.png") no-repeat;
+    background-position: -483px -15px;
+}
+
+.social li.s-fl {
+    background: url("../img/social.png") no-repeat;
+    background-position: 1px -100px;
+}
+
+.social li.s-in {
+    background: url("../img/social.png") no-repeat;
+    background-position: -80px -100px;
+}
+
+.social li.s-tube {
+    background: url("../img/social.png") no-repeat;
+    background-position: -161px -100px;
+}
+
+.social li.s-vi {
+    background: url("../img/social.png") no-repeat;
+    background-position: -242px -100px;
+}
+
+.social li.s-tu {
+    background: url("../img/social.png") no-repeat;
+    background-position: -322px -100px;
+}
+
+.social li.s-pi {
+    background: url("../img/social.png") no-repeat;
+    background-position: -403px -100px;
+}
+
+.social li.s-dr {
+    background: url("../img/social.png") no-repeat;
+    background-position: -483px -100px;
+}
+
+/*Hover*/
+
+.social .s-fb:hover {
+    background: url("../img/social-hover.png") no-repeat;
+    background-position: 1px -15px;
+}
+
+.social .s-tw:hover {
+    background: url("../img/social-hover.png") no-repeat;
+    background-position: -80px -15px;
+}
+
+.social .s-li:hover {
+    background: url("../img/social-hover.png") no-repeat;
+    background-position: -161px -15px;
+}
+
+.social .s-g:hover{
+    background: url("../img/social-hover.png") no-repeat;
+    background-position: -242px -15px;
+}
+
+.social .s-be:hover {
+    background: url("../img/social-hover.png") no-repeat;
+    background-position: -322px -15px;
+}
+
+.social .s-rs:hover {
+    background: url("../img/social-hover.png") no-repeat;
+    background-position: -403px -15px;
+}
+
+.social .s-pica:hover {
+    background: url("../img/social-hover.png") no-repeat;
+    background-position: -483px -15px;
+}
+
+.social .s-fl:hover {
+    background: url("../img/social-hover.png") no-repeat;
+    background-position: 1px -100px;
+}
+
+.social .s-in:hover {
+    background: url("../img/social-hover.png") no-repeat;
+    background-position: -80px -100px;
+}
+
+.social .s-tube:hover {
+    background: url("../img/social-hover.png") no-repeat;
+    background-position: -161px -100px;
+}
+
+.social .s-vi:hover {
+    background: url("../img/social-hover.png") no-repeat;
+    background-position: -242px -100px;
+}
+
+.social .s-tu:hover {
+    background: url("../img/social-hover.png") no-repeat;
+    background-position: -322px -100px;
+}
+
+.social .s-pi:hover {
+    background: url("../img/social-hover.png") no-repeat;
+    background-position: -403px -100px;
+}
+
+.social .s-dr:hover {
+    background: url("../img/social-hover.png") no-repeat;
+    background-position: -483px -100px;
 }
 
 .contact-column-2 {
