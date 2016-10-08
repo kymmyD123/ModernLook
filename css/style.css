@@ -400,7 +400,53 @@ h2.title-blog-2 {
 .contact-column-2 {
     width: 378px;
     height: 383px;
-    outline: 1px solid red;
+}
+
+#comment {
+    width: 343px;
+    height: 200px;
+    resize: none;
+    outline: none;
+    border: none;
+    background: #2f2637;
+    font: 300 16px/16px Lato, sans-serif;
+    color: #fff;
+    padding: 12px 18px;
+    margin-bottom: 16px;
+}
+
+.name {
+    width: 361px;
+    outline: none;
+    height: 50px;
+    border: none;
+    background: #2f2637;
+    font: 300 16px/16px Lato, sans-serif;
+    color: #fff;
+    padding-left: 18px;
+    margin-bottom: 16px;
+}
+
+.email {
+    width: 361px;
+    outline: none;
+    height: 50px;
+    border: none;
+    background: #2f2637;
+    font: 300 16px/16px Lato, sans-serif;
+    color: #fff;
+    padding-left: 18px;
+    margin-bottom: 16px;
+}
+
+.submit {
+    width: 378px;
+    outline: none;
+    height: 50px;
+    border: none;
+    background: #666565;
+    font: 300 16px/16px Lato, sans-serif;
+    color: #fff;
 }
 
 footer {
